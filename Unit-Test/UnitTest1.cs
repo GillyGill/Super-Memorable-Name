@@ -10,5 +10,9 @@ namespace Unit_Test
       {
          Assert.Equal(1, 1);
       }
+      public void Test1()
+      {
+         Assert.Equal(2, 2);
+      }
    }
 }
