@@ -10,7 +10,7 @@ namespace Unit_Test
       {
          Assert.Equal(1, 1);
       }
-      public void Test1()
+      public void Test2()
       {
          Assert.Equal(2, 2);
       }
