@@ -6,19 +6,21 @@ using System.Threading.Tasks;
 
 namespace Project1
 {
-   class main
+   public class main
    {
-      static public string greeting()
+      public main() { }
+      public string greeting()
       {
          return "Hello, ";
       }
-      static public string goodbye()
+     public string goodbye()
       {
          return "Goodbye";
       }
       static void Main(string[] args)
       {
-         System.Console.WriteLine(greeting() + "World!");
+         main example = new();
+         System.Console.WriteLine(example.greeting() + "World!");
       }
    }
 }
