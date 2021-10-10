@@ -8,19 +8,17 @@ namespace Project1
 {
    class main
    {
-      public main()
-      {
-         Console.Write(greeting() + "World!");
-      }
-
-      public string greeting()
+      static public string greeting()
       {
          return "Hello, ";
       }
-      public string goodbye()
+      static public string goodbye()
       {
          return "Goodbye";
       }
-
+      static void Main(string[] args)
+      {
+         System.Console.WriteLine(greeting() + "World!");
+      }
    }
 }
