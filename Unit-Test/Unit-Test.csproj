@@ -6,7 +6,7 @@
 
     <IsPackable>false</IsPackable>
 
-    <StartupObject>Project1.main</StartupObject>
+    <StartupObject></StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
