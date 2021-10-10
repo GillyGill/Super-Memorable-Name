@@ -21,6 +21,10 @@ namespace Project1
       {
          return "Greetings, ";
       }
+      public string greeting3()
+      {
+         return "THIS IS A BUGGY MESSAGE";
+      }
       public string goodbye()
       {
          return "Goodbye";
