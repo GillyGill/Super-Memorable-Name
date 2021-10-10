@@ -1,14 +1,14 @@
 using System;
 using Xunit;
 
-namespace Unit_Test
+namespace Super_Memorable_Name
 {
     public class UnitTest1
     {
         [Fact]
         public void Test1()
         {
-         Assert.Equal(1, 1);
+
         }
     }
 }
