@@ -9,11 +9,11 @@ namespace Unit_Test
       public void Test1()
       {
          // Arrange
-         string expected = "Hello, ";
-         Project1.main test = new ();
+         //string expected = "Hello, ";
+         //Project1.main test = new ();
 
          // Act
-         String actual = test.greeting();
+         //String actual = test.greeting();
 
          // Assert
          //Assert.Equal(actual, expected);
