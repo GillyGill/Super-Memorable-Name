@@ -8,12 +8,28 @@ namespace Unit_Test
       [Fact]
       public void Test1()
       {
-         Assert.Equal(1, 1);
+         // Arrange
+         string expected = "Hello, ";
+         Project1.main test = new();
+
+         // Act
+         string actual = test.greeting();
+
+         // Assert
+         Assert.Equal(expected, actual);
       }
       [Fact]
       public void Test2()
       {
-         Assert.Equal(2, 2);
+         // Arrange
+         string expected = "Goodbye";
+         Project1.main test = new();
+
+         // Act
+         string actual = test.goodbye();
+
+         // Assert
+         Assert.Equal(expected, actual);
       }
    }
 }
