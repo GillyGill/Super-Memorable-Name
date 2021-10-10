@@ -22,7 +22,7 @@ namespace Unit_Test
       public void Test2()
       {
          // Arrange
-         string expected = "Goodbye ";
+         string expected = "Goodbye";
          Project1.main test = new();
 
          // Act
