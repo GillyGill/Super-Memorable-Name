@@ -13,7 +13,7 @@ namespace Project1
       {
          return "Hello, ";
       }
-     public string goodbye()
+      public string goodbye()
       {
          return "Goodbye";
       }
