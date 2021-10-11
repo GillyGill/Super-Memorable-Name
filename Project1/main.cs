@@ -15,7 +15,7 @@ namespace Project1
       }
       public string goodbye()
       {
-         return "Goodbye";
+         return "Something completely random";
       }
       static void Main(string[] args)
       {

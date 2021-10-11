@@ -20,7 +20,7 @@ namespace Unit_Test
       public void Test2()
       {
          // Arrange
-         string expected = "Something completely random";
+         string expected = "Goodbye";
          Project1.main test = new();
          // Act
          string actual = test.goodbye();
